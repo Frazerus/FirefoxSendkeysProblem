@@ -1,0 +1,34 @@
+1679658393557   geckodriver     INFO    Listening on 127.0.0.1:58964
+1679658397770   geckodriver::capabilities       DEBUG   Trying to read firefox version from ini files
+1679658397771   geckodriver::capabilities       DEBUG   Found version 111.0.1
+1679658397775   mozrunner::runner       INFO    Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\LUKAS~1.HAR\\AppData\\Local\\Temp\\rust_mozprofilesJFBeR"
+1679658397778   geckodriver::marionette DEBUG   Waiting 60s to connect to browser on 127.0.0.1
+1679658397780   geckodriver::browser    TRACE   Failed to open C:\Users\LUKAS~1.HAR\AppData\Local\Temp\rust_mozprofilesJFBeR\MarionetteActivePort
+1679658397781   geckodriver::marionette TRACE   Retrying in 100ms
+1679658397884   geckodriver::browser    TRACE   Failed to open C:\Users\LUKAS~1.HAR\AppData\Local\Temp\rust_mozprofilesJFBeR\MarionetteActivePort
+1679658397884   geckodriver::marionette TRACE   Retrying in 100ms
+1679658397994   geckodriver::browser    TRACE   Failed to open C:\Users\LUKAS~1.HAR\AppData\Local\Temp\rust_mozprofilesJFBeR\MarionetteActivePort
+1679658397994   geckodriver::marionette TRACE   Retrying in 100ms
+Read port: 58970
+1679658398163   geckodriver::marionette DEBUG   Connection to Marionette established on 127.0.0.1:58970.
+1679658399091   webdriver::server       DEBUG   <- 200 OK {"value":{"sessionId":"3ff31440-9d2a-4636-bbbb-3cede59acb39","capabilities":{"acceptInsecureCerts":false,"browserNa ... ctability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1679658399113   webdriver::server       DEBUG   -> POST /session/3ff31440-9d2a-4636-bbbb-3cede59acb39/url {"url":"C:\\Users\\lukas.hartinger\\Desktop\\TestProjectGeckoDriver\\index.html"}
+1679658399191   webdriver::server       DEBUG   <- 200 OK {"value":null}
+1679658399203   webdriver::server       DEBUG   -> POST /session/3ff31440-9d2a-4636-bbbb-3cede59acb39/element {"using":"css selector","value":"#textInput"}
+1679658399219   webdriver::server       DEBUG   <- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"4cc8c533-80cf-4570-99b6-667f857cbea5"}}
+1679658399224   webdriver::server       DEBUG   -> POST /session/3ff31440-9d2a-4636-bbbb-3cede59acb39/element/4cc8c533-80cf-4570-99b6-667f857cbea5/value {"text":"inputWithoutDelete","value":["i","n","p","u","t","W","i","t","h","o","u","t","D","e","l","e","t","e"]}
+1679658399243   webdriver::server       DEBUG   <- 200 OK {"value":null}
+1679658399247   webdriver::server       DEBUG   -> POST /session/3ff31440-9d2a-4636-bbbb-3cede59acb39/execute/sync {"script":"/* get-attribute */return (function(){return (f ... \n).apply(null, arguments);","args":[{"element-6066-11e4-a52e-4f735466cecf":"4cc8c533-80cf-4570-99b6-667f857cbea5"},"value"]}
+1679658399255   webdriver::server       DEBUG   <- 200 OK {"value":"inputWithoutDelete"}
+1679658399257   webdriver::server       DEBUG   -> POST /session/3ff31440-9d2a-4636-bbbb-3cede59acb39/element/4cc8c533-80cf-4570-99b6-667f857cbea5/value {"text":"amyInput","value":["","a","","","m","y","I","n","p","u","t"]}
+1679658399259   webdriver::server       DEBUG   <- 200 OK {"value":null}
+1679658399261   webdriver::server       DEBUG   -> POST /session/3ff31440-9d2a-4636-bbbb-3cede59acb39/execute/sync {"script":"/* get-attribute */return (function(){return (f ... \n).apply(null, arguments);","args":[{"element-6066-11e4-a52e-4f735466cecf":"4cc8c533-80cf-4570-99b6-667f857cbea5"},"value"]}
+1679658399267   webdriver::server       DEBUG   <- 200 OK {"value":""}
+1679658399269   webdriver::server       DEBUG   -> POST /session/3ff31440-9d2a-4636-bbbb-3cede59acb39/execute/sync {"script":"/* get-attribute */return (function(){return (f ... \n).apply(null, arguments);","args":[{"element-6066-11e4-a52e-4f735466cecf":"4cc8c533-80cf-4570-99b6-667f857cbea5"},"value"]}
+1679658399276   webdriver::server       DEBUG   <- 200 OK {"value":""}
+1679658399277   webdriver::server       DEBUG   -> POST /session/3ff31440-9d2a-4636-bbbb-3cede59acb39/element/4cc8c533-80cf-4570-99b6-667f857cbea5/value {"text":"a","value":["","a","",""]}
+1679658399279   webdriver::server       DEBUG   <- 200 OK {"value":null}
+1679658399279   webdriver::server       DEBUG   -> POST /session/3ff31440-9d2a-4636-bbbb-3cede59acb39/element/4cc8c533-80cf-4570-99b6-667f857cbea5/value {"text":"myInput","value":["m","y","I","n","p","u","t"]}
+1679658399282   webdriver::server       DEBUG   <- 200 OK {"value":null}
+1679658399284   webdriver::server       DEBUG   -> POST /session/3ff31440-9d2a-4636-bbbb-3cede59acb39/execute/sync {"script":"/* get-attribute */return (function(){return (f ... \n).apply(null, arguments);","args":[{"element-6066-11e4-a52e-4f735466cecf":"4cc8c533-80cf-4570-99b6-667f857cbea5"},"value"]}
+1679658399290   webdriver::server       DEBUG   <- 200 OK {"value":"myInput"}
